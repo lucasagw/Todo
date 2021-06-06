@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Tasks</string>
+    <string name="descricao">Description</string>
+    <string name="name">Name</string>
+    <string name="autor" translatable="false">Mario</string>
+
+<plurals name="numeroDeTarefa"> <!--passando um objeto contador, retorna uma string de acordo com a quantidade de tarefas -->
+    <item quantity="one">%d Tarefa</item>
+    <item quantity="other">%d Tarefas</item>
+</plurals>
+
+<string-array name="situacao_array">
+    <item>Nova</item>
+    <item>Em andamento</item>
+    <item>Concluida</item>
+</string-array>
+
+</resources>
